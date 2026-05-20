@@ -9,7 +9,7 @@ def validate_and_execute():
     
         num = int(user_input)
         if num > 0:
-            calculated_value = days_to_seconds(num)
+            calculated_value = days_to_seconds(num) #converted
             print(calculated_value)
         elif num == 0:
             print("you ghave entered 0")
